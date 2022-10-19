@@ -9,12 +9,12 @@ header {
     -webkit-text-fill-color: #FCF7F8;
      background-color: #181122;
 }
-#sidebar {
+section {
     background-color: #343330;
-    width: 30%  ;
-    
+    width: min-content  ;
+    ;
 }
 footer {
-     background-color: #181122;
+     background-color: #343330;
      text-align: center;
 }
