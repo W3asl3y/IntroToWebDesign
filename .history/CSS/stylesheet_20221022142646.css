@@ -18,19 +18,8 @@ header {
 
 .nav-menu {
      list-style: none;
-     
 }
-
-a:link {
-     color: blue;
-}
-
-a:visited {
-     color: blue;
-}
-
 footer {
      background-color: #181122;
      text-align: center;
-     -webkit-text-fill-color: white;
 }

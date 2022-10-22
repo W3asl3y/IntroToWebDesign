@@ -13,6 +13,8 @@ header {
 #sidebar {
     background-color: #343330;
     width: 30%  ;
+    float: left;
+    position: fixed;
     
 }
 

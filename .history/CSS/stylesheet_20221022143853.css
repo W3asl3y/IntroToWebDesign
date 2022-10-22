@@ -10,6 +10,12 @@ header {
      background-color: #181122;
 }
 
+#profile picture {
+     object-fit: cover;
+     width: 150px;
+     height: 150px;
+}
+
 #sidebar {
     background-color: #343330;
     width: 30%  ;
