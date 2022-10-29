@@ -1,7 +1,7 @@
 body{
      font-family:serif,sans-serif;
      font-size:110%;
-     background-color: #bdeaff;
+     background-color: #e8eef2;
 }
 
 
@@ -39,11 +39,17 @@ a:visited {
      color: blue;
 }
 
-.my_contacts { 
+#linkedin_icon { 
      width: 40px;
 }
 
+#facebook_icon { 
+     width: 40px;
+}
 
+#gmail_icon { 
+     width: 40px;
+}
 
 footer {
      background-color: #36494e;

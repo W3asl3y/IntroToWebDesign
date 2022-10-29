@@ -1,7 +1,7 @@
 body{
      font-family:serif,sans-serif;
      font-size:110%;
-     background-color: #bdeaff;
+     background-color: #e8eef2;
 }
 
 
@@ -17,7 +17,7 @@ header {
 }
 
 #sidebar {
-    background-color: #7ea0b7;
+    background-color: #77b6ea;
     width: 30%  ;
     
 }
@@ -39,14 +39,20 @@ a:visited {
      color: blue;
 }
 
-.my_contacts { 
+#linkedin_icon { 
      width: 40px;
 }
 
+#facebook_icon { 
+     width: 40px;
+}
 
+#gmail_icon { 
+     width: 40px;
+}
 
 footer {
-     background-color: #36494e;
+     background-color: #37393a;
      text-align: center;
      -webkit-text-fill-color: white;
 }
