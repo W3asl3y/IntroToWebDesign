@@ -10,7 +10,6 @@ header {
      text-align: center;
     -webkit-text-fill-color: #FCF7F8;
      background-color: #36494e;
-     padding: 1rem;
 }
 
 #profile_picture {
@@ -22,7 +21,7 @@ header {
 #sidebar {
     background-color: #7ea0b7;
     width: 30%  ;
-    padding: 1rem;
+    
 }
 
 #menu { 
@@ -31,12 +30,7 @@ header {
 
 .nav-menu {
      list-style: none;
-     padding: 0%;
      
-}
-
-#contents { 
-     padding-left: 2rem;
 }
 
 a:link {
@@ -49,7 +43,6 @@ a:visited {
 
 .my_contacts { 
      width: 40px;
-     padding: 0.5rem;
 }
 
 
@@ -57,7 +50,5 @@ a:visited {
 footer {
      background-color: #36494e;
      text-align: center;
-
      -webkit-text-fill-color: white;
-     padding: 1rem;
 }

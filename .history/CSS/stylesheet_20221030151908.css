@@ -35,10 +35,6 @@ header {
      
 }
 
-#contents { 
-     padding-left: 2rem;
-}
-
 a:link {
      color: blue;
 }
@@ -49,7 +45,7 @@ a:visited {
 
 .my_contacts { 
      width: 40px;
-     padding: 0.5rem;
+     padding: 1rem;
 }
 
 
@@ -57,7 +53,5 @@ a:visited {
 footer {
      background-color: #36494e;
      text-align: center;
-
      -webkit-text-fill-color: white;
-     padding: 1rem;
 }
