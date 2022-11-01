@@ -2,15 +2,9 @@ body{
      font-family:serif,sans-serif;
      font-size:110%;
      background-color: #bdeaff;
-     display: flex;
-     flex-direction: column;
 }
 
-main { 
-     display: flex;
-     flex-direction: row;
-     overflow: unset;
-}
+
 
 header {
      text-align: center;
@@ -66,5 +60,4 @@ footer {
      text-align: center;
      -webkit-text-fill-color: white;
      padding: 1rem;
-     justify-content: center;
 }

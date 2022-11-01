@@ -9,7 +9,6 @@ body{
 main { 
      display: flex;
      flex-direction: row;
-     overflow: unset;
 }
 
 header {
@@ -44,6 +43,9 @@ header {
 
 #contents { 
      padding-left: 2rem;
+     position: relative;
+     left: 34%;
+     bottom: 2rem;
 }
 
 a:link {
@@ -66,5 +68,4 @@ footer {
      text-align: center;
      -webkit-text-fill-color: white;
      padding: 1rem;
-     justify-content: center;
 }
