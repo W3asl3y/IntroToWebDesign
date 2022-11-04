@@ -1,5 +1,5 @@
 body{
-     font-family:sans-serif;
+     font-family:serif,sans-serif;
      font-size:110%;
      background-color: #bdeaff;
      display: flex;
@@ -27,7 +27,7 @@ header {
 
 #sidebar {
     background-color: #7ea0b7;
-    width: 120px  ;
+    width: 30%  ;
     padding: 1rem;
     position: sticky;
 }

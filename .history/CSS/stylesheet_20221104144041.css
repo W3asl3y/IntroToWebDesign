@@ -1,9 +1,15 @@
 body{
-     font-family:sans-serif;
+     font-family:serif,sans-serif;
      font-size:110%;
      background-color: #bdeaff;
      display: flex;
      flex-direction: column;
+     position: relative;
+}
+body::after { 
+     content: "";
+     display: block;
+     height: 50px;
 }
 
 main { 
@@ -27,7 +33,7 @@ header {
 
 #sidebar {
     background-color: #7ea0b7;
-    width: 120px  ;
+    width: 30%  ;
     padding: 1rem;
     position: sticky;
 }
@@ -66,5 +72,8 @@ footer {
      text-align: center;
      -webkit-text-fill-color: white;
      padding: 1rem;
-     justify-content: center;
+     position: absolute;
+     height: 50px;
+     bottom: 0;
+     width: 100%;
 }
