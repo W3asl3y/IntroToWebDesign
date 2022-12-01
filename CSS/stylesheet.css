@@ -1,9 +1,16 @@
 body{
      font-family:sans-serif;
      font-size:110%;
-     background-color: #bdeaff;
+;
+     background-color:  #bdeaff ;
      display: flex;
      flex-direction: column;
+}
+
+.backgroundImage {
+     background-image: url("Images/me-playing-golf.jpg");
+     background-size: auto;
+
 }
 
 main { 
@@ -39,11 +46,12 @@ header {
 .nav-menu {
      list-style: none;
      padding: 0%;
-     
 }
 
 #contents { 
      padding-left: 2rem;
+     background-color: transparent;
+     background-image: none;
 }
 
 a:link {
@@ -67,4 +75,8 @@ footer {
      -webkit-text-fill-color: white;
      padding: 1rem;
      justify-content: center;
+}
+
+.pictureOfMe {
+     align-self: center;
 }
