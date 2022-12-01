@@ -8,8 +8,9 @@ body{
 }
 
 .backgroundImage {
-     background-image: url("Images/me-playing-golf.jpg");
+     background-image: url("/images/me-playing-golf.jpg");
      background-size: auto;
+     background-repeat: inherit;
 
 }
 

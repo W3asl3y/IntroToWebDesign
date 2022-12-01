@@ -1,10 +1,24 @@
 body{
-     font-family:serif,sans-serif;
+     font-family:sans-serif;
      font-size:110%;
-     background-color: #bdeaff;
+;
+     background-color:  #bdeaff ;
+     display: flex;
+     flex-direction: column;
 }
 
+.backgroundImage {
+     background-image: url("/images/me-playing-golf.jpg");
+     background-size: auto;
+     background-repeat: inherit;
 
+}
+
+main { 
+     display: flex;
+     flex-direction: row;
+     overflow: unset;
+}
 
 header {
      text-align: center;
@@ -21,8 +35,9 @@ header {
 
 #sidebar {
     background-color: #7ea0b7;
-    width: 30%  ;
+    width: 120px  ;
     padding: 1rem;
+    position: sticky;
 }
 
 #menu { 
@@ -32,7 +47,12 @@ header {
 .nav-menu {
      list-style: none;
      padding: 0%;
-     
+}
+
+#contents { 
+     padding-left: 2rem;
+     background-color: transparent;
+     background-image: none;
 }
 
 a:link {
@@ -45,7 +65,7 @@ a:visited {
 
 .my_contacts { 
      width: 40px;
-     padding: 1rem;
+     padding: 0.5rem;
 }
 
 
@@ -54,4 +74,10 @@ footer {
      background-color: #36494e;
      text-align: center;
      -webkit-text-fill-color: white;
+     padding: 1rem;
+     justify-content: center;
+}
+
+.pictureOfMe {
+     align-self: center;
 }
