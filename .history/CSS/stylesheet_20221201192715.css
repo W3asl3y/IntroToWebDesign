@@ -9,6 +9,7 @@ body{
 .backgroundImage {
      background-image: url("/images/me-playing-golf.jpg");
      background-size: auto;
+     background-repeat: inherit;
 
 }
 
@@ -33,7 +34,7 @@ header {
 
 #sidebar {
     background-color: #7ea0b7;
-    width: 10%  ;
+    width: 120px  ;
     padding: 1rem;
     position: sticky;
 }
@@ -80,33 +81,13 @@ footer {
      align-self: center;
 }
 
-@media  screen and (max-width:600px){
-     #sidebar {
-          width: 30vw;
-     }
-     #contents {
-          width: auto;
+@media only screen and (max-width: 600px) {
+     .sidebar {
+          width: 30%;
      }
 
-}
-
-@media screen and (max-width:1000px) {
-     #sidebar {
-          width: 30vw;
-     }
-     #contents {
-          width: auto;
-     }
-
-
-}
-
-@media screen and (min-width:1000px) {
-     #sidebar {
-          width: 30vw;
-     }
-     #contents {
-          width: auto;
+     .contents {
+          width: 70%;
      }
 
 

@@ -1,6 +1,7 @@
 body{
      font-family:sans-serif;
      font-size:110%;
+;
      background-color:  #bdeaff ;
      display: flex;
      flex-direction: column;
@@ -33,7 +34,7 @@ header {
 
 #sidebar {
     background-color: #7ea0b7;
-    width: 10%  ;
+    width: 120px  ;
     padding: 1rem;
     position: sticky;
 }
@@ -78,36 +79,4 @@ footer {
 
 .pictureOfMe {
      align-self: center;
-}
-
-@media  screen and (max-width:600px){
-     #sidebar {
-          width: 30vw;
-     }
-     #contents {
-          width: auto;
-     }
-
-}
-
-@media screen and (max-width:1000px) {
-     #sidebar {
-          width: 30vw;
-     }
-     #contents {
-          width: auto;
-     }
-
-
-}
-
-@media screen and (min-width:1000px) {
-     #sidebar {
-          width: 30vw;
-     }
-     #contents {
-          width: auto;
-     }
-
-
 }

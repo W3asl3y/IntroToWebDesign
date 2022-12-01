@@ -82,32 +82,30 @@ footer {
 
 @media  screen and (max-width:600px){
      #sidebar {
-          width: 30vw;
-     }
-     #contents {
-          width: auto;
+          width: 30%;
      }
 
+     #contents {
+          width: 70%;
+     }
 }
 
 @media screen and (max-width:1000px) {
      #sidebar {
-          width: 30vw;
+          width: 30%;
      }
+
      #contents {
-          width: auto;
+          width: 70%;
      }
-
-
 }
 
 @media screen and (min-width:1000px) {
      #sidebar {
-          width: 30vw;
+          width: 30%;
      }
+
      #contents {
-          width: auto;
+          width: 70%;
      }
-
-
 }
