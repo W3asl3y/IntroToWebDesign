@@ -1,10 +1,9 @@
-* { box-sizing: border-box }
+{ box-sizing: border-box}
 
 body{
      font-family:sans-serif;
      font-size:110%;
-     font-weight: bolder;
-     background-color:  #36494e ;
+     background-color:  #bdeaff ;
      display: flex;
      flex-direction: column;
 }
@@ -28,8 +27,6 @@ header {
      padding: 1rem;
 }
 
-
-
 #profile_picture {
      width: 15rem;
      border-radius: 50%;
@@ -42,8 +39,6 @@ header {
     padding: 1rem;
     position: sticky;
 }
-
-
 
 #menu { 
      -webkit-text-fill-color:white ;
@@ -59,8 +54,6 @@ header {
      background-color: transparent;
      background-image: none;
 }
-
-
 
 a:link {
      color: blue;
@@ -84,7 +77,6 @@ footer {
      padding: 1rem;
      justify-content: center;
 }
-
 
 .pictureOfMe {
      align-self: center;
