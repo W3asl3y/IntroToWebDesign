@@ -19,7 +19,6 @@ main {
      display: flex;
      flex-direction: row;
      overflow: unset;
-     -webkit-text-fill-color: white;
 }
 
 header {
@@ -35,6 +34,14 @@ header {
      width: 15rem;
      border-radius: 50%;
      border: 3px solid orangered;
+}
+
+
+
+
+
+#menu { 
+     -webkit-text-fill-color:white ;
 }
 
 .nav-menu {
