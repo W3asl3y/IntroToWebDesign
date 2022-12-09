@@ -8,7 +8,7 @@
      display: flex;
      flex-direction: column;
 }
-/* background image that covers the main of the website */
+
 .backgroundImage {
      background-image: url("/images/background-image.jpg");
      background-size: auto;
@@ -36,13 +36,13 @@ header {
      border-radius: 50%;
      border: 3px solid orangered;
 }
-/* applies hover attribute to my profile picture */
+
 #profile_picture:hover { 
      width: 30rem;
      animation-name: profilePicture;
      animation-duration: 3s;
  }
- /*keyframe that enlarges my profile picture*/
+ 
  @keyframes profilePicture { 
      from { 
          width: 15rem;
@@ -60,19 +60,19 @@ header {
      background-color: transparent;
      background-image: none;
 }
-/* when hovering over the link it turns white */
+
 #codespace:hover {
      color: white;
 }
-/* shows all links as blue */
+
 a:link {
      color: blue;
 }
-/* shows all links as blue when visited */
+
 a:visited {
      color: blue;
 }
-/* my contact details */
+
 .my_contacts { 
      width: 40px;
      padding: 0.5rem;
@@ -92,7 +92,7 @@ footer {
 .pictureOfMe {
      align-self: center;
 }
-/* media query for smaller devices */
+
 @media  screen and (max-width:600px){
      .body { 
           text-size-adjust: 80%;
@@ -104,7 +104,7 @@ footer {
           width: auto;
      }
 }
-/* media query for medium devices */
+
 @media screen and (max-width:1000px) {
      #contents {
           width: auto;
@@ -114,10 +114,10 @@ footer {
      }
 
 }
-/* media query for devices with a screen width more than 1000 pixels */
-@media screen and (min-width:1001px) {
+
+@media screen and (min-width:1000px) {
      .body {
-          text-size-adjust: 200%;
+          text-size-adjust: 400%;
      }
      #contents {
           width: auto;
